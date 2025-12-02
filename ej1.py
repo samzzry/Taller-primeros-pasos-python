@@ -10,14 +10,13 @@ def verificar_numero(numero):
     else:
         resultado = "El número es Negativo."
     return resultado
-
 def imprimir_datos(numero):
     print("Número ingresado:", numero)
-
 def imprimir_resultado(resultado):
     print(resultado)
-# Programa principal
+# Programa incipal
 numero = definir_numero()
 resultado = verificar_numero(numero)
 imprimir_datos(numero)
+
 imprimir_resultado(resultado)
