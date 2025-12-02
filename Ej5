@@ -34,7 +34,7 @@ def numero_correspondiente(numero_mes):
         
         
 def imprimir_mes(dato_mes):
-    print("El nombre de tu mes es " + str(dato_mes))
+    print("El nombre de tu mes es " + (dato_mes))
     
     
 # Codigo Principal 
