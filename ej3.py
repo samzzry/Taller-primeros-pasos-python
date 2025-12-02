@@ -1,8 +1,8 @@
 
 def solicitarnumeros():
-    """
+    "
     Pide al usuario que digite un número y lo va retonar como entero
-    """
+    "
     while True:
         try:
         
@@ -14,9 +14,9 @@ def solicitarnumeros():
 
 
 def verificar(num):
-    """
+    "
     Determina si el número dado es par o impar.
-    """
+    "
 
     if num % 2 == 0:
         print(f"El número {num} es par.")
@@ -25,13 +25,13 @@ def verificar(num):
 
 
 def main():
-    """
+    "
     Función principal que el programa se ejecute
-    """
+    "
    
     num = 1
     
-    print(" CÓDIGO PRINCIPAL DE PYTHON ")
+   #codigo principal
 
   
     while num != 0:
@@ -48,3 +48,4 @@ def main():
 # Punto de entrada del programa
 if __name__ == "__main__":
     main()
+
