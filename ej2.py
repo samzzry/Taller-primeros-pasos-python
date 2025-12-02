@@ -1,7 +1,6 @@
 
 def mostrarmenu():
-    """Imprime las opciones del menú."""
-    print("CÓDIGO PRINCIPAL DE PYTHON")
+    # menu
     print("Digite la letra 'A' para Actualizar Sistema")
     print("Digite la letra 'E' para Eliminar Catálogo")
     print("Digite la letra 'C' para Crear Productos")
@@ -9,11 +8,11 @@ def mostrarmenu():
 
 
 def procesaropcion(letras):
-    """
+    "
     Procesa la opción ingresada por el usuario.
     Retorna True si la opción es 'S' o 's' de lo contrario False.
-    """
-    letras = letras.upper() 
+    "
+    letras = letras.upper()
 
     if letras == 'A':
         print(" Procesando: Actualizar Sistema")
@@ -61,3 +60,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
