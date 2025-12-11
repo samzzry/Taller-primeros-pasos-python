@@ -1,22 +1,21 @@
 
-def definir_numero():
-    numero = int(input("Digite un número: "))
-    return numero
-def verificar_numero(numero):
-    if numero > 0:
+def defi():
+    num = int(input("Digite un número: "))
+    return num
+def verificar_num(num):
+    if num > 0:
         resultado = "El número es Positivo."
-    elif numero == 0:
+    elif num == 0:
         resultado = "El número es Neutro."
     else:
         resultado = "El número es Negativo."
     return resultado
-def imprimir_datos(numero):
-    print("Número ingresado:", numero)
+def imprimir_datos(num):
+    print("Número ingresado:", num)
 def imprimir_resultado(resultado):
     print(resultado)
 # Programa incipal
-numero = definir_numero()
-resultado = verificar_numero(numero)
-imprimir_datos(numero)
-
+num = defi()
+resultado = verificar_num(num)
+imprimir_datos(num)
 imprimir_resultado(resultado)
