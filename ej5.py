@@ -1,7 +1,7 @@
-def pedir_numero_mes():
+def numero_mes():
     num = int(input("Digite un número del 1 al 12: "))
     return num
-def obtener_mes(num):
+def obtener (num):
     match num:
         case 1:
             mes = "Enero"
@@ -32,8 +32,9 @@ def obtener_mes(num):
     return mes
 
 #codigo orincipal
-def imprimir_mes(mes):
+def imprimmes(mes):
     print(mes)
-numero = pedir_numero_mes()
-mes = obtener_mes(numero)
-imprimir_mes(mes)
+numero = numero_mes()
+mes = obtener(numero)
+
+imprimmes(mes)
