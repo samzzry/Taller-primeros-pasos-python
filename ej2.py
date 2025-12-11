@@ -10,7 +10,7 @@ def procesar_opcion(letra):
     if letra == 'S' or letra == 's':
         return True
     else:
-        print("Sigue dentro del proceso del DO WHILE\n")
+        print("Sigue dentro del proceso de do while\n")
         return False
 # codigo principal
 while True:
@@ -20,4 +20,5 @@ while True:
     if salir:
         print("Finalizó con éxito\n")
         break
-print("EL DO-WHILE ha finalizado\n")
+
+print("do while ha finalizado\n")
